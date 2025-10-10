@@ -4,14 +4,14 @@ import './App.css'
 
 function App() {
   return (
-    <>
+    <div className="max-w-5xl mx-auto p-4">
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<div>404 - Page not found</div>} />
+        <Route path="*" element={<h2>404 - Page not found</h2>} />
       </Routes>
     </BrowserRouter>
-    </>
+    </div>
   )
 }
 
