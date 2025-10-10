@@ -17,6 +17,7 @@
     "tailwindcss": "^4.1.14"
   },
   "devDependencies": {
+    "@catppuccin/tailwindcss": "^1.0.0",
     "@eslint/js": "^9.36.0",
     "@types/node": "^24.6.0",
     "@types/react": "^19.1.16",
