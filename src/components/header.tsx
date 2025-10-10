@@ -2,12 +2,12 @@ import React from 'react';
 
 const Header: React.FC = () => {
     return (
-        <header className="bg-zinc-700 text-white p-4 flex justify-between items-center">
+        <header className="bg-ctp-surface0 p-4 flex justify-between items-center rounded-b-2xl shadow-md">
             <h1>My Portfolio</h1>
             <menu>
-                <a href="./" className="mr-4">About</a>
-                <a href="projects" className="mr-4">Projects</a>
-                <a href="contact">Contact</a>
+                <a href="./" className="header-link">About</a>
+                <a href="projects" className="header-link">Projects</a>
+                <a href="contact" className="header-link">Contact</a>
             </menu>
         </header>
     );
