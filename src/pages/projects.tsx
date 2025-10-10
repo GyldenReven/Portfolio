@@ -1,11 +1,11 @@
-function HomePage() {
+function ProjectsPage() {
     return <>
       <div>
         <h1>
-          Simon Cohet
+          My Projects
         </h1>
       </div>
     </>
 }
 
-export default HomePage
+export default ProjectsPage
