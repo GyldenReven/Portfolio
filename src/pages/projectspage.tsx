@@ -1,6 +1,7 @@
 import ProjectCard from "../components/projects/project_card"
 import img from "../assets/react.svg"
-import type { Project } from "../types/project"
+import type{ Project } from "../types/project"
+import { defaultTags } from "../types/tag"
 
 let projects: Project[] = [
     {
@@ -8,25 +9,25 @@ let projects: Project[] = [
         description: "Description for project 1",
         thumbnail: img,
         icon: img,
-        tags: ["react", "frontend"]
+        tags: [defaultTags[2], defaultTags[6]]
     },
     {
         title: "Project 2",
         description: "Description for project 2",
         thumbnail: img,
-        tags: ["typescript", "web"]
+        tags: [defaultTags[1], defaultTags[6]]
     },
     {
         title: "Project 3",
         description: "Description for project 3",
         thumbnail: img,
-        tags: ["javascript", "portfolio"]
+        tags: [defaultTags[0], defaultTags[8]]
     },
     {
         title: "Project 4",
         description: "Description for project 4",
         thumbnail: img,
-        tags: ["css", "design"]
+        tags: [defaultTags[3], defaultTags[7]]
     }
 ];
 

@@ -1,5 +1,5 @@
 import HomePage from './pages/homepage'
-import ProjectsPage from './pages/projects'
+import ProjectsPage from './pages/projectspage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Footer from './components/footer';
