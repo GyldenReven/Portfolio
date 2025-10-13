@@ -3,7 +3,7 @@ import { projects } from "../types/project"
 
 function ProjectsPage() {
     return <>
-      <section className="copper-plate">
+      <section className="bg-ctp-surface0">
         <h1>
           My Projects
         </h1>

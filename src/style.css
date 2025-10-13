@@ -34,14 +34,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    background: linear-gradient(
-        135deg,
-        var(--color-iron-300),
-        var(--color-iron-400),
-        var(--color-iron-300),
-        var(--color-iron-400),
-        var(--color-iron-500)
-    );
+    background-color: var(--color-ctp-base);
 }
 
 section {
@@ -92,15 +85,4 @@ header > menu > a:hover {
         var(--color-copper-500),
         var(--color-copper-600)
     );
-}
-
-.gear {
-    fill: pink; /* Change la couleur de remplissage */
-    stroke: black; /* Ajoute un contour */
-    stroke-width: 2px; /* Définit l'épaisseur du contour */
-    transition: fill 0.3s; /* Ajoute une transition */
-
-    &:hover {
-        fill: hotpink; /* Change la couleur au survol */
-    }
 }
