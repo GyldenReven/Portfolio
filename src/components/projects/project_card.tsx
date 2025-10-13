@@ -3,7 +3,7 @@ import type { Project } from '../../types/project.tsx';
 import TagCard from './tag_card.tsx';
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
-    <a className="bg-ctp-surface0 hover:shadow-[0_0_10px] hover:shadow-ctp-yellow border-2 border-ctp-overlay1 rounded-2xl hover:scale-[1.1] transition-all duration-400 ease-in-out cursor-pointer m-2 hover:border-ctp-yellow" 
+    <a className="bg-copper-600 hover:shadow-xl border-2 border-copper-700 rounded-2xl hover:scale-[1.1] transition-all duration-400 ease-in-out cursor-pointer m-2" 
         href={"#"}
         target="_blank" 
         rel="noopener noreferrer"

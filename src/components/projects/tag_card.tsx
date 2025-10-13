@@ -1,5 +1,6 @@
 // Update the import path to the correct location of Tag type
 import type { Tag } from "../../types/tag";
+import gear from "../../assets/gear.svg";
 
 type TagCardProps = {
     tag: Tag;
@@ -8,11 +9,14 @@ type TagCardProps = {
 function TagCard({ tag }: TagCardProps) {
     return (
         <div className="flex items-center pl-2">
-            <span 
-                className="rounded-lg pl-2 pr-2 text-white text-sm bg-ctp-base font-medium"
-                style={{ border: `2px solid ${tag.color}` }}
-            >
-                {tag.name}
+            <img
+            src={gear}
+            alt='Gear icon'
+            className="w-4 h-4 mr-1 mt-1 rounded-full"
+            style={{ backgroundColor: tag.color }}
+            />
+            <span>
+            {tag.name}
             </span>
         </div>
     );

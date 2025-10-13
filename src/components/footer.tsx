@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Footer: React.FC = () => (
-    <footer className="text-center text-sm text-ctp-subtext0 bg-ctp-mantle p-4 mt-8">
-        © {new Date().getFullYear()} Your Name. All rights reserved.
+    <footer className="text-center text-sm text-zinc-200 bg-zinc-600 p-4 mt-8">
+        © 2025 Your Name. All rights reserved.
     </footer>
 );
 

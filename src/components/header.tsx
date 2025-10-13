@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header: React.FC = () => {
     return (
-        <header className="bg-ctp-surface0 p-4 flex justify-between items-center rounded-b-2xl shadow-md">
+        <header className="bg-copper-500 border-copper-600 border-t-0 border-3 p-4 flex justify-between items-center rounded-b-lg shadow-lg">
             <h1>My Portfolio</h1>
             <menu>
                 <a href="./" className="header-link">About</a>

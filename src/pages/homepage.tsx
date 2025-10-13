@@ -1,10 +1,10 @@
 function HomePage() {
     return <>
-      <div>
+      <section className="copper-plate">
         <h1>
           Simon Cohet
         </h1>
-      </div>
+      </section>
     </>
 }
 

@@ -3,7 +3,7 @@ import { projects } from "../types/project"
 
 function ProjectsPage() {
     return <>
-      <div>
+      <section className="copper-plate">
         <h1>
           My Projects
         </h1>
@@ -14,7 +14,7 @@ function ProjectsPage() {
             />
           ))}
         </div>
-      </div>
+      </section>
     </>
 }
 
