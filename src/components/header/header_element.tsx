@@ -1,15 +1,14 @@
-// Update the import path to the correct location of Tag type
-import type { Tag } from "../../types/tag";
+import type React from "react";
+import gear from "../../assets/gear.svg";
 
-type TagCardProps = {
-    tag: Tag;
-};
-
-function TagCard({ tag }: TagCardProps) {
+const HeaderElement: React.FC<{ name: string; ref: string }> = ({
+    name,
+    ref,
+}) => {
     return (
-        <div className="group/tag flex items-center p-2 bg-ctp-surface0 text-ctp-text rounded-full m-1 px-2 py-1 text-sm font-medium border-2 border-ctp-overlay0">
+        <div className="flex items-center bg-ctp-surface1 p-2 group/header-element rounded-lg hover:scale-110 transition-all duration-200 ease-in-out border-2 border-ctp-overlay0 hover:border-copper-400">
             <svg
-                className="inline-block mr-1 transition-transform duration-300 ease-in-out group-hover/tag:rotate-180"
+                className="inline-block mr-1 transition-transform duration-300 ease-in-out group-hover/header-element:rotate-180"
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
                 width="12pt"
@@ -22,8 +21,7 @@ function TagCard({ tag }: TagCardProps) {
                 </metadata>
                 <g
                     transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-                    fill={tag.color}
-                    stroke="none"
+                    className="fill-ctp-text group-hover/header-element:fill-copper-300 transition-all duration-300 ease-in-out"
                 >
                     <path
                         d="M6010 12794 c-25 -2 -103 -9 -175 -15 -143 -12 -390 -49 -503 -74
@@ -57,9 +55,9 @@ function TagCard({ tag }: TagCardProps) {
                     />
                 </g>
             </svg>
-            <span>{tag.name}</span>
+            <a href={ref}>{name}</a>
         </div>
     );
-}
+};
 
-export default TagCard;
+export default HeaderElement;
