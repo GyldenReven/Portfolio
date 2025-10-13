@@ -1,5 +1,4 @@
 import type React from "react";
-import gear from "../../assets/gear.svg";
 
 const HeaderElement: React.FC<{ name: string; ref: string }> = ({
     name,
