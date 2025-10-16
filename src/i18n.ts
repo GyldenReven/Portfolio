@@ -11,6 +11,20 @@ const resources = {
   },
   fr: {
     translation: {
+        "name": "Simon Cohet",
+        "header": {
+            "title": "Mon Portfolio",
+            "home": "Accueil",
+            "projects": "Projets",
+            "contact": "Contact",
+        },
+        "footer": {
+            "text": "Tous droits réservés.",
+            "contact": "Contactez-moi :",
+        },
+        "projects": {
+            "title": "Projets",
+        },
     }
   }
 };
