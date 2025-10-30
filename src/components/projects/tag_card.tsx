@@ -1,11 +1,11 @@
 // Update the import path to the correct location of Tag type
 import type { Tag } from "../../types/tag";
 
-type TagCardProps = {
-    tag: Tag;
-};
+import { useTranslation } from "react-i18next";
 
-function TagCard({ tag }: TagCardProps) {
+function TagCard({ tag }: { tag: Tag }) {
+    const { t } = useTranslation();
+
     return (
         <div className="group/tag flex items-center p-2 bg-ctp-surface0 text-ctp-text rounded-full m-1 px-2 py-1 text-sm font-medium border-2 border-ctp-overlay0">
             <svg
@@ -58,7 +58,7 @@ function TagCard({ tag }: TagCardProps) {
                     />
                 </g>
             </svg>
-            <span>{tag.name}</span>
+            <span>{t(tag.name)}</span>
         </div>
     );
 }
