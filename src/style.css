@@ -38,10 +38,13 @@
 }
 
 section {
-    margin: 20px auto;
+    margin: 10px auto;
+    margin-bottom: 0;
+    width: 100%;
     max-width: 1200px;
     padding: 20px;
     border-radius: 10px;
+    background-color: var(--color-ctp-surface0);
 }
 
 h1 {

@@ -7,16 +7,14 @@ function ProjectsPage() {
     const { t } = useTranslation();
 
     return (
-        <>
-            <section className="bg-ctp-surface0">
-                <h1>{t("projects.title")}</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {projects.map((project) => (
-                        <ProjectCard project={project} />
-                    ))}
-                </div>
-            </section>
-        </>
+        <section>
+            <h1>{t("projects.title")}</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {projects.map((project) => (
+                    <ProjectCard project={project} />
+                ))}
+            </div>
+        </section>
     );
 }
 

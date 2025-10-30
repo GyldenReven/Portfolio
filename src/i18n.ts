@@ -12,6 +12,13 @@ const resources = {
   fr: {
     translation: {
         "name": "Simon Cohet",
+        "homepage": {
+            "welcome": "Bienvenue sur mon portfolio !",
+            "intro": "Je suis un développeur passionné spécialisé dans la création d'applications web modernes et réactives.",
+            "experience_title": "Éxpérience",
+
+            "education_title": "Études",
+          },
         "header": {
             "title": "Mon Portfolio",
             "home": "Accueil",
