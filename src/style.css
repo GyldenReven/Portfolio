@@ -58,6 +58,8 @@ h2 {
     line-height: 1.2;
 }
 h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.3;

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { languagesSkills, toolsSkills } from "../types/skills";
 
 function HomePage() {
     const { t } = useTranslation();
@@ -23,6 +24,45 @@ function HomePage() {
             </section>
             <section className="col-2 row-start-1 row-end-4 ">
                 <h2>{t("homepage.skills_title")}</h2>
+                <h3>{t("homepage.skills.programming_languages")}</h3>
+                <ul>
+                    {languagesSkills.map((skill) => (
+                        <li
+                            key={skill.name}
+                            className="flex items-center gap-2 mb-2"
+                        >
+                            <img
+                                src={skill.icon}
+                                alt={skill.name + " icon"}
+                                className="w-6 h-6"
+                            />
+                            <span>{skill.name}</span>
+                        </li>
+                    ))}
+                </ul>
+                <h3>{t("homepage.skills.tools")}</h3>
+                <ul>
+                    {toolsSkills.map((skill) => (
+                        <li
+                            key={skill.name}
+                            className="flex items-center gap-2 mb-2"
+                        >
+                            <img
+                                src={skill.icon}
+                                alt={skill.name + " icon"}
+                                className="w-6 h-6"
+                            />
+                            <span>{skill.name}</span>
+                        </li>
+                    ))}
+                </ul>
+                <ul>
+                    <h3>{t("homepage.skills.languages_title")}</h3>
+                    <ul>
+                        <li>{t("homepage.skills.languages.french")}</li>
+                        <li>{t("homepage.skills.languages.english")}</li>
+                    </ul>
+                </ul>
             </section>
         </div>
     );

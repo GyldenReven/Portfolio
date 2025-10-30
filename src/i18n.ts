@@ -16,9 +16,20 @@ const resources = {
             "welcome": "Bienvenue sur mon portfolio !",
             "intro": "Je suis un développeur passionné spécialisé dans la création d'applications web modernes et réactives.",
             "experience_title": "Éxpérience",
-
+            
             "education_title": "Études",
+            "skills_title": "Compétences",
+            "skills": {
+                "programming_languages": "Programmation",
+                "frameworks": "Frameworks",
+                "tools": "Outils",
+                "languages_title": "Langues",
+                "languages": {
+                    "french": "Français (langue maternelle)",
+                    "english": "Anglais (courant)",
+            },
           },
+        },
         "header": {
             "title": "Mon Portfolio",
             "home": "Accueil",
