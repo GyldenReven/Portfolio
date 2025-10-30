@@ -9,11 +9,12 @@ function TagCard({ tag }: TagCardProps) {
     return (
         <div className="group/tag flex items-center p-2 bg-ctp-surface0 text-ctp-text rounded-full m-1 px-2 py-1 text-sm font-medium border-2 border-ctp-overlay0">
             <svg
-                className="inline-block mr-1 transition-transform duration-300 ease-in-out group-hover/tag:rotate-180"
+                /* TODO : fix rotation */
+                className="inline-block m-0 mr-1 transition-transform duration-300 ease-in-out group-hover/tag:rotate-180"
                 version="1.0"
                 xmlns="http://www.w3.org/2000/svg"
-                width="12pt"
-                height="12pt"
+                width="16pt"
+                height="16pt"
                 viewBox="0 0 1280.000000 1280.000000"
                 preserveAspectRatio="xMidYMid meet"
             >
