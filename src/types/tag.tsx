@@ -4,14 +4,14 @@ export type Tag = {
 };
 
 export const defaultTags: Tag[] = [
-    { name: 'javascript', color: '#f7df1e' },
-    { name: 'typescript', color: '#3178c6' },
-    { name: 'react', color: '#61dafb' },
-    { name: 'css', color: '#264de4' },
-    { name: 'html', color: '#e34c26' },
-    { name: 'nodejs', color: '#68a063' },
-    { name: 'web', color: '#ff6f61' },
-    { name: 'design', color: '#9b59b6' },
-    { name: 'portfolio', color: '#2ecc71' },
-    { name: 'dart', color: '#e67e22' },
+    { name: "JavaScript", color: "#f7df1e" },
+    { name: "TypeScript", color: "#3178c6" },
+    { name: "React", color: "#61dafb" },
+    { name: "CSS", color: "#264de4" },
+    { name: "HTML", color: "#e34c26" },
+    { name: "Node.js", color: "#68a063" },
+    { name: "Web", color: "#ff6f61" },
+    { name: "Design", color: "#9b59b6" },
+    { name: "Portfolio", color: "#2ecc71" },
+    { name: "Dart", color: "#e67e22" },
 ];
