@@ -8,7 +8,7 @@ function HomePage() {
     const { t } = useTranslation();
 
     return (
-        <div className="max-w-[1600px] grid gap-3 col-span-2 grid-cols-[1fr_350px] m-auto">
+        <div className="max-w-[1600px] grid gap-3 col-span-2 md:grid-cols-[1fr_350px] grid-cols-[1fr] m-auto">
             <section>
                 <h1>{t("name")}</h1>
                 <div>{t("homepage.welcome")}</div>
@@ -27,7 +27,7 @@ function HomePage() {
                     <EducationElement type="secondaryschool" />
                 </Timeline>
             </section>
-            <section className="col-2 row-start-1 row-end-4 ">
+            <section className="md:col-2 md:row-start-1 md:row-end-4">
                 <h2>{t("homepage.skills_title")}</h2>
                 <h3>{t("homepage.skills.programming_languages")}</h3>
                 <ul className="border-b-2 border-ctp-overlay0 pb-2 mb-4">
