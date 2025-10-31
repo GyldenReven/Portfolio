@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { languagesSkills, toolsSkills } from "../types/skills";
+import Timeline from "../components/homepage/timeline";
 import EducationElement from "../components/homepage/education_element";
+import ExperienceElement from "../components/homepage/experience_element";
 
 function HomePage() {
     const { t } = useTranslation();
@@ -13,14 +15,17 @@ function HomePage() {
             </section>
             <section>
                 <h2>{t("homepage.experience_title")}</h2>
-                <p>{t("homepage.experience_text")}</p>
+                <Timeline>
+                    <ExperienceElement type="ndc2" latest />
+                    <ExperienceElement type="ndc1" />
+                </Timeline>
             </section>
             <section>
                 <h2>{t("homepage.education_title")}</h2>
-                <ol className="relative border-s border-ctp-overlay0 ml-2 mt-6">
+                <Timeline>
                     <EducationElement type="university" latest />
                     <EducationElement type="secondaryschool" />
-                </ol>
+                </Timeline>
             </section>
             <section className="col-2 row-start-1 row-end-4 ">
                 <h2>{t("homepage.skills_title")}</h2>

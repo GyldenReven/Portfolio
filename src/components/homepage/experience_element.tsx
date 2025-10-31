@@ -20,7 +20,7 @@ const EducationElement: React.FC<{ type: string; latest?: boolean }> = ({
                 </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
-                {t("homepage.education." + type + "_title")}
+                {t("homepage.experience." + type + "_title")}
                 {latest && (
                     <span className="bg-ctp-teal-950 text-ctp-teal-50 text-sm font-bold me-2 px-2.5 py-0.5 rounded-lg ms-3">
                         {t("homepage.latest_label")}
@@ -28,10 +28,10 @@ const EducationElement: React.FC<{ type: string; latest?: boolean }> = ({
                 )}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-ctp-subtext0">
-                {t("homepage.education." + type + "_date")}
+                {t("homepage.experience." + type + "_date")}
             </time>
             <p className="mb-4 text-base font-normal text-ctp-text">
-                {t("homepage.education." + type + "_desc")}
+                {t("homepage.experience." + type + "_desc")}
             </p>
         </li>
     );

@@ -16,10 +16,17 @@ const resources = {
             "welcome": "Bienvenue sur mon portfolio !",
             "intro": "Je suis un développeur passionné spécialisé dans la création d'applications web modernes et réactives.",
             "experience_title": "Éxpérience",
-            
+            "experience": {
+                "ndc2_title": "Marathon de programmation - Nuit du Code",
+                "ndc2_date": "Juin 2024",
+                "ndc2_desc": "Participation pour la deuxième année consécutive au marathon de programmation organisé par la Nuit du Code. Il s'agit d'un projet de développement en équipe d'un jeu en 6 heures. Permettant de renforcer les compétences acquises l'année précédente en travail",
+                "ndc1_title": "Marathon de programmation - Nuit du Code",
+                "ndc1_date": "Juin 2023",
+                "ndc1_desc": "Participation au marathon de programmation organisé par la Nuit du Code. Il s'agit d'un projet de développement en équipe d'un jeu en 6 heures qui m'a permis de vite apprendre à collaborer en groupe dans un temps limité."
+            },
             "education_title": "Études",
+            "latest_label": "Dernier",
             "education": {
-                "latest_label": "Dernier",
                 "university_title": "IUT De Lens - BUT Informatique",
                 "university_date": "Septembre 2024 - Juin 2026",
                 "university_desc": "Actuellement en cours de la deuxième année du BUT Informatique, avec une spécialisation en développement d'applications",
