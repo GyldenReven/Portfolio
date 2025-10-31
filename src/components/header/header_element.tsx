@@ -5,7 +5,10 @@ const HeaderElement: React.FC<{ name: string; ref: string }> = ({
     ref,
 }) => {
     return (
-        <div className="flex items-center bg-ctp-surface1 p-2 group/header-element rounded-lg hover:scale-110 transition-all duration-200 ease-in-out border-2 border-ctp-overlay0 hover:border-copper-400">
+        <a
+            className="w-full flex items-center bg-ctp-surface1 p-2 group/header-element rounded-lg hover:scale-110 transition-all duration-200 ease-in-out border-2 border-ctp-overlay0 hover:border-copper-400"
+            href={ref}
+        >
             <svg
                 className="inline-block mr-1 transition-transform duration-300 ease-in-out group-hover/header-element:rotate-180"
                 version="1.0"
@@ -54,8 +57,8 @@ const HeaderElement: React.FC<{ name: string; ref: string }> = ({
                     />
                 </g>
             </svg>
-            <a href={ref}>{name}</a>
-        </div>
+            {name}
+        </a>
     );
 };
 
