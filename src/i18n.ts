@@ -18,6 +18,15 @@ const resources = {
             "experience_title": "Éxpérience",
             
             "education_title": "Études",
+            "education": {
+                "latest_label": "Dernier",
+                "university_title": "IUT De Lens - BUT Informatique",
+                "university_date": "Septembre 2024 - Juin 2026",
+                "university_desc": "Actuellement en cours de la deuxième année du BUT Informatique, avec une spécialisation en développement d'applications",
+                "secondaryschool_title": "Lycée Baudimont - Baccalauréat Général",
+                "secondaryschool_date": "Septembre 2021 - Juillet 2024",
+                "secondaryschool_desc": "Diplômé avec mention très bien, en spécialité Mathématiques et Numérique et Sciences Informatiques",
+            },
             "skills_title": "Compétences",
             "skills": {
                 "programming_languages": "Programmation",
