@@ -13,7 +13,7 @@ const resources = {
     translation: {
         "name": "Simon Cohet",
         "homepage": {
-            "welcome": "Bienvenue sur mon portfolio !",
+            "welcome": "Salut, je suis Simon, étudiant en 2e année de BUT Informatique parcours réalisation d'applications. Passionné par le développement dès mon premier contact avec la programmation.",
             "intro": "Je suis un développeur passionné spécialisé dans la création d'applications web modernes et réactives.",
             "experience_title": "Éxpérience",
             "experience": {
@@ -29,7 +29,7 @@ const resources = {
             "education": {
                 "university_title": "IUT De Lens - BUT Informatique",
                 "university_date": "Septembre 2024 - Juin 2026",
-                "university_desc": "Actuellement en cours de la deuxième année du BUT Informatique, avec une spécialisation en développement d'applications",
+                "university_desc": "Actuellement en cours de la deuxième année du BUT Informatique, avec parcours en réalisation d'applications",
                 "secondaryschool_title": "Lycée Baudimont - Baccalauréat Général",
                 "secondaryschool_date": "Septembre 2021 - Juillet 2024",
                 "secondaryschool_desc": "Diplômé avec mention très bien, en spécialité Mathématiques et Numérique et Sciences Informatiques",
