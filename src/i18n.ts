@@ -11,6 +11,7 @@ const resources = {
   },
   fr: {
     translation: {
+        "404": "404 - Page non trouvée",
         "name": "Simon Cohet",
         "homepage": {
             "welcome": "Salut, je suis Simon, étudiant en 2e année de BUT Informatique parcours réalisation d'applications. Passionné par le développement dès mon premier contact avec la programmation.",
