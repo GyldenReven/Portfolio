@@ -2,12 +2,15 @@ import { useTranslation } from "react-i18next";
 import { languagesSkills, toolsSkills } from "../types/skills";
 import Timeline from "../components/homepage/timeline";
 import TimelineElement from "../components/homepage/timeline_element";
+import logoIUT from "../assets/iut_lens.png";
+import logoNDC from "../assets/ndc.png";
+import logoBaudimont from "../assets/baudimont.svg";
 
 function HomePage() {
     const { t } = useTranslation();
 
     return (
-        <div className="max-w-[1600px] grid gap-3 col-span-2 md:grid-cols-[1fr_350px] grid-cols-[1fr] m-auto">
+        <div className="max-w-[1600px] grid gap-3 col-span-2 md:grid-cols-[1fr_300px] grid-cols-[1fr] m-auto">
             <section>
                 <h1>{t("name")}</h1>
                 <div>{t("homepage.welcome")}</div>
@@ -15,8 +18,17 @@ function HomePage() {
             <section>
                 <h2>{t("homepage.experience_title")}</h2>
                 <Timeline>
-                    <TimelineElement category="experience" type="ndc2" latest />
-                    <TimelineElement category="experience" type="ndc1" />
+                    <TimelineElement
+                        category="experience"
+                        type="ndc2"
+                        latest
+                        icon={logoNDC}
+                    />
+                    <TimelineElement
+                        category="experience"
+                        type="ndc1"
+                        icon={logoNDC}
+                    />
                 </Timeline>
             </section>
             <section>
@@ -26,10 +38,12 @@ function HomePage() {
                         category="education"
                         type="university"
                         latest
+                        icon={logoIUT}
                     />
                     <TimelineElement
                         category="education"
                         type="secondaryschool"
+                        icon={logoBaudimont}
                     />
                 </Timeline>
             </section>

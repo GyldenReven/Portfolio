@@ -4,23 +4,27 @@ const TimelineElement: React.FC<{
     category: string;
     type: string;
     latest?: boolean;
-}> = ({ category, type, latest }) => {
+    icon?: string;
+}> = ({ category, type, latest, icon }) => {
     const { t } = useTranslation();
 
     return (
-        <li className="mb-10 ms-6">
-            <span className="absolute flex items-center justify-center w-6 h-6 bg-ctp-overlay0 rounded-full -start-3 ring-6 ring-ctp-surface0">
-                <svg
-                    className="w-2.5 h-2.5 text-ctp-teal-400"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                >
-                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                </svg>
+        <li className="mb-5 ms-6">
+            <span className="absolute flex items-center justify-center w-10 h-10 bg-ctp-surface1 rounded-full -start-5 ring-6 ring-ctp-surface0 hover:scale-120 hover:ring-0 transition-all duration-300 ">
+                {icon && (
+                    <img
+                        src={icon}
+                        alt={`${t(
+                            "homepage." + category + "." + type + "_title"
+                        )} icon`}
+                        className="w-7 h-7"
+                    />
+                )}
+                {!icon && (
+                    <div className="w-7 h-7 bg-ctp-text rounded-full"></div>
+                )}
             </span>
-            <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
+            <h3 className="flex items-center mb-1 text-lg font-semibold text-white pt-2">
                 {t("homepage." + category + "." + type + "_title")}
                 {latest && (
                     <span className="bg-ctp-teal-950 text-ctp-teal-50 text-sm font-bold me-2 px-2.5 py-0.5 rounded-lg ms-3">
