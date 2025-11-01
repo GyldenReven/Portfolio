@@ -11,11 +11,12 @@ const resources = {
   },
   fr: {
     translation: {
+        "404": "404 - Page non trouvée",
         "name": "Simon Cohet",
         "homepage": {
             "welcome": "Salut, je suis Simon, étudiant en 2e année de BUT Informatique parcours réalisation d'applications. Passionné par le développement dès mon premier contact avec la programmation.",
             "intro": "Je suis un développeur passionné spécialisé dans la création d'applications web modernes et réactives.",
-            "experience_title": "Éxpérience",
+            "experience_title": "Éxpériences",
             "experience": {
                 "ndc2_title": "Marathon de programmation - Nuit du Code",
                 "ndc2_date": "Juin 2024",
@@ -55,10 +56,26 @@ const resources = {
         "footer": {
             "text": "Tous droits réservés.",
             "contact": "Contactez-moi :",
+            "pages": "Pages :",
         },
         "projects": {
             "title": "Projets",
         },
+        "contact": {
+            "title": "Contactez-moi",
+            "name_label": "Nom",
+            "name_placeholder": "Votre nom",
+            "email_label": "Email",
+            "email_placeholder": "Votre adresse email",
+            "subject_label": "Sujet",
+            "subject_placeholder": "Sujet du message",
+            "message_label": "Message",
+            "message_placeholder": "Votre message",
+            "submit_button": "Envoyer",
+            "info_title": "Informations de contact",
+            "success_message": "Message envoyé  !",
+            "error_message": "Une erreur est survenue. Veuillez réessayer.",
+        }
     }
   }
 };
