@@ -15,7 +15,7 @@ const resources = {
         "homepage": {
             "welcome": "Salut, je suis Simon, étudiant en 2e année de BUT Informatique parcours réalisation d'applications. Passionné par le développement dès mon premier contact avec la programmation.",
             "intro": "Je suis un développeur passionné spécialisé dans la création d'applications web modernes et réactives.",
-            "experience_title": "Éxpérience",
+            "experience_title": "Éxpériences",
             "experience": {
                 "ndc2_title": "Marathon de programmation - Nuit du Code",
                 "ndc2_date": "Juin 2024",

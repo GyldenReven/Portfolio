@@ -1,9 +1,10 @@
 import { useTranslation } from "react-i18next";
 
-const EducationElement: React.FC<{ type: string; latest?: boolean }> = ({
-    type,
-    latest,
-}) => {
+const TimelineElement: React.FC<{
+    category: string;
+    type: string;
+    latest?: boolean;
+}> = ({ category, type, latest }) => {
     const { t } = useTranslation();
 
     return (
@@ -20,7 +21,7 @@ const EducationElement: React.FC<{ type: string; latest?: boolean }> = ({
                 </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
-                {t("homepage.experience." + type + "_title")}
+                {t("homepage." + category + "." + type + "_title")}
                 {latest && (
                     <span className="bg-ctp-teal-950 text-ctp-teal-50 text-sm font-bold me-2 px-2.5 py-0.5 rounded-lg ms-3">
                         {t("homepage.latest_label")}
@@ -28,13 +29,13 @@ const EducationElement: React.FC<{ type: string; latest?: boolean }> = ({
                 )}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-ctp-subtext0">
-                {t("homepage.experience." + type + "_date")}
+                {t("homepage." + category + "." + type + "_date")}
             </time>
             <p className="mb-4 text-base font-normal text-ctp-text">
-                {t("homepage.experience." + type + "_desc")}
+                {t("homepage." + category + "." + type + "_desc")}
             </p>
         </li>
     );
 };
 
-export default EducationElement;
+export default TimelineElement;
