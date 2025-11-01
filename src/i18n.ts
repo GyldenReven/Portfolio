@@ -56,6 +56,7 @@ const resources = {
         "footer": {
             "text": "Tous droits réservés.",
             "contact": "Contactez-moi :",
+            "pages": "Pages :",
         },
         "projects": {
             "title": "Projets",
@@ -69,6 +70,7 @@ const resources = {
             "message_label": "Message",
             "message_placeholder": "Votre message",
             "submit_button": "Envoyer",
+            "info_title": "Informations de contact",
         }
     }
   }

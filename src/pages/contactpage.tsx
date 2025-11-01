@@ -37,7 +37,7 @@ function ContactPage() {
                             rel="noopener noreferrer"
                             className="ml-2 hover:underline"
                         >
-                            GitHub
+                            GyldenReven
                         </a>
                     </li>
                 </ol>
