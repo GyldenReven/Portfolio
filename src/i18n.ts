@@ -60,6 +60,16 @@ const resources = {
         "projects": {
             "title": "Projets",
         },
+        "contact": {
+            "title": "Contactez-moi",
+            "name_label": "Nom",
+            "name_placeholder": "Votre nom",
+            "email_label": "Email",
+            "email_placeholder": "Votre adresse email",
+            "message_label": "Message",
+            "message_placeholder": "Votre message",
+            "submit_button": "Envoyer",
+        }
     }
   }
 };

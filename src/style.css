@@ -73,6 +73,22 @@ h3 {
     color: white;
 }
 
+input, textarea {
+    padding: 10px;
+    border: 2px solid var(--color-ctp-overlay0);
+    border-radius: 10px;
+    background-color: var(--color-ctp-surface0);
+    color: var(--color-ctp-text);
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--color-copper-400);
+}
+
 .copper-plate {
     border: 3px solid var(--color-copper-600);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
