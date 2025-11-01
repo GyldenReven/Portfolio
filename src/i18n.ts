@@ -67,10 +67,14 @@ const resources = {
             "name_placeholder": "Votre nom",
             "email_label": "Email",
             "email_placeholder": "Votre adresse email",
+            "subject_label": "Sujet",
+            "subject_placeholder": "Sujet du message",
             "message_label": "Message",
             "message_placeholder": "Votre message",
             "submit_button": "Envoyer",
             "info_title": "Informations de contact",
+            "success_message": "Message envoyé  !",
+            "error_message": "Une erreur est survenue. Veuillez réessayer.",
         }
     }
   }
