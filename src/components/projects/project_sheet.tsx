@@ -50,7 +50,7 @@ const ProjectSheet: React.FC<{ project: Project }> = ({ project }) => {
             <img
                 src={project.thumbnail}
                 alt={`${project.title} screenshot`}
-                className="rounded-lg object-cover object-top md:col-2 md:row-start-1 md:row-end-3 border-2 border-ctp-overlay0"
+                className="m-[10px_auto] max-h-3/5 rounded-lg object-cover object-top md:col-2 md:row-start-1 md:row-end-3 border-2 border-ctp-overlay0"
             />
         </div>
     );
