@@ -1,20 +1,38 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProjectCard from "../components/projects/project_card";
 import { projects } from "../types/project";
 
 import { useTranslation } from "react-i18next";
+import Page404 from "./page404";
+import ProjectSheet from "../components/projects/project_sheet";
 
 function ProjectsPage() {
     const { t } = useTranslation();
 
     return (
-        <section>
-            <h1>{t("projects.title")}</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Routes>
+                <Route
+                    path="/"
+                    element={
+                        <section>
+                            <h1>{t("projects.title")}</h1>
+
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                                {projects.map((project) => (
+                                    <ProjectCard project={project} />
+                                ))}
+                            </div>
+                        </section>
+                    }
+                />
                 {projects.map((project) => (
-                    <ProjectCard project={project} />
+                    <Route
+                        path={`/${project.title}`}
+                        element={<ProjectSheet project={project} />}
+                    />
                 ))}
-            </div>
-        </section>
+                <Route path="*" element={<Page404 />} />
+            </Routes>
     );
 }
 

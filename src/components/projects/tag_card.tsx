@@ -7,7 +7,7 @@ function TagCard({ tag }: { tag: Tag }) {
     const { t } = useTranslation();
 
     return (
-        <div className="group/tag flex items-center p-2 bg-ctp-surface0 text-ctp-text rounded-full m-1 px-2 py-1 text-sm font-medium border-2 border-ctp-overlay0">
+        <div className="group/tag flex items-center p-2 bg-ctp-surface0 text-ctp-text rounded-full px-2 py-1 text-sm font-medium border-2 border-ctp-overlay0">
             <svg
                 /* TODO : fix rotation */
                 className="inline-block m-0 mr-1 transition-transform duration-300 ease-in-out group-hover/tag:rotate-180"

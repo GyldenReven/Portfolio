@@ -6,6 +6,7 @@ import logoIUT from "../assets/iut_lens.png";
 import logoNDC from "../assets/ndc.png";
 import logoBaudimont from "../assets/baudimont.svg";
 
+
 function HomePage() {
     const { t } = useTranslation();
 
