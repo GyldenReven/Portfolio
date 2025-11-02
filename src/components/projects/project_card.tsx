@@ -16,19 +16,19 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
         >
             <img
                 src={project.thumbnail}
-                alt={t(project.title)}
-                className="w-full h-32 object-cover mb-2"
+                alt={`${project.title} image`}
+                className="w-full h-52 object-cover object-top border-b-2 border-ctp-overlay0 rounded-t-[14px]"
             />
             <div className="flex flex-col gap-2 p-2">
                 <div className="flex items-center">
                     {project.icon && (
                         <img
                             src={project.icon}
-                            alt={`${t(project.title)} icon`}
-                            className="w-6 h-6"
+                            alt={`${project.title} icon`}
+                            className="w-8 h-8 mb-3 mr-2"
                         />
                     )}
-                    <h2 className="text-lg font-bold">{t(project.title)}</h2>
+                    <h2 className="text-lg font-bold pb-1">{project.title}</h2>
                 </div>
                 <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag) => (
