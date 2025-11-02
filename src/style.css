@@ -55,7 +55,7 @@ h1 {
     line-height: 1.1;
     font-family: "Quicksand";
     color: white;
-    padding: 0 0 1rem 0;
+    padding-bottom: 1rem;
 }
 h2 {
     font-weight: 600;
@@ -74,6 +74,10 @@ h3 {
     font-family: "Quicksand";
     color: white;
     padding: 0 0 0.5rem 0;
+}
+
+header h1 {
+    padding-bottom: 0;
 }
 
 input, textarea {
