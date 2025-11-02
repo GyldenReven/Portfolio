@@ -14,13 +14,28 @@ export type Project = {
 
 export const projects: Project[] = [
     {
+        title: "Ametask",
+        description: "ametask_description",
+        thumbnail: img,
+        icon: img,
+        tags: [defaultTags[9], defaultTags[10], defaultTags[12],],
+        githubUrl: "https://github.com/GyldenReven/Ametask",
+    },
+    {
+        title: "UtiliTea",
+        description: "utilitea_description",
+        thumbnail: img,
+        icon: img,
+        tags: [defaultTags[0], defaultTags[1], defaultTags[2], defaultTags[3]],
+        githubUrl: "https://github.com/GyldenReven/UtiliTea",
+        liveUrl: "https://gyldenreven.github.io/UtiliTea/",
+    },
+    {
         title: "Project 1",
         description: "Description for project 1",
         thumbnail: img,
         icon: img,
         tags: [defaultTags[2], defaultTags[6]],
-        githubUrl: "https://github.com/user/project1",
-        liveUrl: "https://project1.live",
     },
     {
         title: "Project 2",
