@@ -8,11 +8,12 @@ const Footer: React.FC = () => {
     const { t } = useTranslation();
 
     return (
-        <footer className="text-center text-sm text-ctp-subtext0 bg-ctp-mantle p-2 mt-8 flex justify-around">
+        <footer className="text-center text-sm text-ctp-subtext0 bg-ctp-mantle p-2 mt-8 flex justify-around flex-col md:flex-row">
             <div className="h-full align-center justify-center text-center mt-auto mb-auto">
                 © 2025 {t("name")}. {t("footer.text")}
             </div>
-            <div className="flex flex-col ml-4 align-start justify-start border-l-2 border-ctp-overlay0 pl-4">
+            <div className="ml-5 mr-5 flex pt-2 mt-2 border-t-2 border-ctp-overlay0 justify-center md:border-t-0 md:mt-0 md:pt-0">
+            <div className="flex flex-col md:ml-4 align-start justify-start md:border-l-2 border-ctp-overlay0 pl-4">
                 <a
                     className="hover:underline justify-start w-max"
                     href="/contact"
@@ -67,6 +68,7 @@ const Footer: React.FC = () => {
                         </a>
                     </li>
                 </ol>
+            </div>
             </div>
         </footer>
     );
