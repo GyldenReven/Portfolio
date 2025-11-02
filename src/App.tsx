@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import Header from "./components/header/header";
 import { useTranslation } from "react-i18next";
 import ContactPage from "./pages/contactpage";
+import Page404 from "./pages/page404";
 
 function App() {
     const { t } = useTranslation();
@@ -16,7 +17,7 @@ function App() {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<HomePage />} />
-                        <Route path="/projects" element={<ProjectsPage />} />
+                        <Route path="/projects/*" element={<ProjectsPage />} />
                         <Route
                             path="/Contact"
                             element={<ContactPage />}
@@ -24,9 +25,7 @@ function App() {
                         <Route
                             path="*"
                             element={
-                            <section >
-                            <h2 className="w-max m-auto">{t("404")}</h2>
-                            </section>
+                                <Page404 />
                             }
                         />
                     </Routes>
