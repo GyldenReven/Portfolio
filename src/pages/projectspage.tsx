@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import ProjectCard from "../components/projects/project_card";
 import { projects } from "../types/project";
 

@@ -3,13 +3,10 @@ import ProjectsPage from "./pages/projectspage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/footer";
 import Header from "./components/header/header";
-import { useTranslation } from "react-i18next";
 import ContactPage from "./pages/contactpage";
 import Page404 from "./pages/page404";
 
 function App() {
-    const { t } = useTranslation();
-
     return (
         <div className="flex flex-col min-h-screen">
             <Header />

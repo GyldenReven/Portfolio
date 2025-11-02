@@ -1,5 +1,4 @@
 import type { Tag } from "./tag";
-import testImg from "../assets/icons/react.svg";
 import utiliteaThumb from "../assets/projects/thumbnails/utilitea_thumbnail.png";
 import utiliteaIcon from "../assets/projects/icons/utilitea_icon.png";
 import ametaskThumb from "../assets/projects/thumbnails/ametask_thumbnail.jpg";
