@@ -11,7 +11,6 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
         <a
             className="bg-ctp-base hover:shadow-xl border-2 border-ctp-overlay0 rounded-2xl hover:scale-[1.1] transition-all duration-400 ease-in-out cursor-pointer m-2 hover:border-copper-400"
             href={`/projects/${project.title}`}
-            target="_blank"
             rel="noopener noreferrer"
         >
             <img
@@ -29,7 +28,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
                 )}
                 <h2 className="text-lg font-bold m-2">{t(project.title)}</h2>
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap gap-2 ml-2">
                 {project.tags.map((tag) => (
                     <TagCard key={tag.name} tag={tag} />
                 ))}
