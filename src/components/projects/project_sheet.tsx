@@ -31,7 +31,7 @@ const ProjectSheet: React.FC<{ project: Project }> = ({ project }) => {
             </section>
             {project.githubUrl && (
                 <section>
-                    <ProjectReadMe />
+                    <ProjectReadMe projectName={project.title}/>
                 </section>
             )}
         </>
