@@ -25,7 +25,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
                         <img
                             src={project.icon}
                             alt={`${project.title} icon`}
-                            className="w-8 h-8 mb-3 mr-2"
+                            className="w-8 h-8 mb-3 mr-2 rounded-lg"
                         />
                     )}
                     <h2 className="text-lg font-bold pb-1">{project.title}</h2>

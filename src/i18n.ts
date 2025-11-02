@@ -61,6 +61,8 @@ const resources = {
         "projects": {
             "title": "Projets",
             "visit_live": "Voir en ligne",
+            "utilitea_description": "Un site web de comportant des outils tels qu'un traducteur morse, un encodeur en code César et un convertisseur de bases numériques",
+            "ametask_description": "Une application mobile de gestion de tâches avec des fonctionnalités supplementaires telles que les taches à compteurs. Réalisée afin d'essayer un nouveau framework et langage.",
         },
         "contact": {
             "title": "Contactez-moi",
