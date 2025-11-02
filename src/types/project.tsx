@@ -8,6 +8,8 @@ export type Project = {
     thumbnail: string;
     icon?: string;
     tags: Tag[];
+    githubUrl?: string;
+    liveUrl?: string;
 };
 
 export const projects: Project[] = [
@@ -17,6 +19,8 @@ export const projects: Project[] = [
         thumbnail: img,
         icon: img,
         tags: [defaultTags[2], defaultTags[6]],
+        githubUrl: "https://github.com/user/project1",
+        liveUrl: "https://project1.live",
     },
     {
         title: "Project 2",

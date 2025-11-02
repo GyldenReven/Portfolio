@@ -60,6 +60,7 @@ const resources = {
         },
         "projects": {
             "title": "Projets",
+            "visit_live": "Voir en ligne",
         },
         "contact": {
             "title": "Contactez-moi",
