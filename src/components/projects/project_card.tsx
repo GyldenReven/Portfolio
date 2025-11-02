@@ -10,7 +10,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
 
     return (
         <a
-            className="bg-ctp-base hover:shadow-xl border-2 border-ctp-overlay0 rounded-2xl hover:scale-[1.1] transition-all duration-400 ease-in-out cursor-pointer m-2 hover:border-copper-400 "
+            className="bg-ctp-base hover:shadow-xl border-2 border-ctp-overlay0 rounded-2xl hover:scale-[1.05] transition-all duration-400 ease-in-out cursor-pointer m-2 hover:border-copper-400 "
             href={`/projects/${project.title}`}
             rel="noopener noreferrer"
         >
@@ -19,7 +19,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
                 alt={`${project.title} image`}
                 className="w-full h-52 object-cover object-top border-b-2 border-ctp-overlay0 rounded-t-[14px]"
             />
-            <div className="flex flex-col gap-2 p-2">
+            <div className="flex flex-col gap-2 p-2 h-[calc(100%-208px)]">
                 <div className="flex items-center">
                     {project.icon && (
                         <img
@@ -38,7 +38,9 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
                 <p className="text-sm text-ctp-text font-medium mt-2 mb-4">
                     {t(project.description)}
                 </p>
+                <div className="mt-auto">
                 <ProjectLinks project={project} />
+                </div>
             </div>
         </a>
     );

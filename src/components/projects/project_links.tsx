@@ -11,7 +11,7 @@ const ProjectLinks: React.FC<{ project: Project }> = ({ project }) => {
             {project.liveUrl && (
                 <a
                     href={project.liveUrl}
-                    className="group/link text-ctp-text font-medium border-2 bg-ctp-surface1 border-ctp-overlay0 rounded-lg p-2 hover:border-green-400 hover:text-green-300 transition-all duration-300 ease-in-out flex justify-center items-center gap-2"
+                    className="group/link text-ctp-text font-medium border-2 bg-ctp-surface1 border-ctp-overlay0 rounded-lg p-2 hover:border-ctp-teal-700 hover:text-ctp-teal transition-all duration-300 ease-in-out flex justify-center items-center gap-2"
                     target="_blank"
                 >
                     <svg
@@ -19,7 +19,7 @@ const ProjectLinks: React.FC<{ project: Project }> = ({ project }) => {
                         height="24"
                         viewBox="0 0 1024 1024"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="fill-ctp-text group-hover/link:fill-green-300 transition-all duration-300 ease-in-out"
+                        className="fill-ctp-text group-hover/link:fill-ctp-teal transition-all duration-300 ease-in-out"
                     >
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g
