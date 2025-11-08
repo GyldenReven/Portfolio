@@ -5,6 +5,9 @@ import TimelineElement from "../components/homepage/timeline_element";
 import logoIUT from "../assets/iut_lens.png";
 import logoNDC from "../assets/ndc.png";
 import logoBaudimont from "../assets/baudimont.svg";
+import frenchFlag from "../assets/flags/france.png";
+import englishFlag from "../assets/flags/uk.png";
+import spanishFlag from "../assets/flags/spain.svg";
 
 function HomePage() {
     const { t } = useTranslation();
@@ -144,9 +147,18 @@ function HomePage() {
                 <ul>
                     <h3>{t("homepage.skills.languages_title")}</h3>
                     <ul>
-                        <li>{t("homepage.skills.languages.french")}</li>
-                        <li>{t("homepage.skills.languages.english")}</li>
-                        <li>{t("homepage.skills.languages.spanish")}</li>
+                        <li className="mb-3">
+                            <img src={frenchFlag} alt="Drapeau français" className="h-6 inline-block mr-2 rounded-sm" />
+                            {t("homepage.skills.languages.french")}
+                        </li>
+                        <li className="mb-3">
+                            <img src={englishFlag} alt="Drapeau anglais" className="h-6 inline-block mr-2 rounded-sm" />
+                            {t("homepage.skills.languages.english")}
+                        </li>
+                        <li className="mb-3">
+                            <img src={spanishFlag} alt="Drapeau espagnol" className="h-6 inline-block mr-2 rounded-sm" />
+                            {t("homepage.skills.languages.spanish")}
+                        </li>
                     </ul>
                 </ul>
             </section>
