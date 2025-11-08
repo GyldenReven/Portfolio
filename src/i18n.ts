@@ -54,6 +54,7 @@ const resources = {
             "home": "Accueil",
             "projects": "Projets",
             "contact": "Contact",
+            "about": "À propos",
         },
         "footer": {
             "text": "Tous droits réservés.",

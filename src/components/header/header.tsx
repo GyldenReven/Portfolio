@@ -62,6 +62,7 @@ const Header: React.FC = () => {
                     ${isToggleOpen ? "flex" : "hidden"}`}
                 >
                     <HeaderElement name={t("header.home")} ref="/" />
+                    <HeaderElement name={t("header.about")} ref="/about" />
                     <HeaderElement
                         name={t("header.projects")}
                         ref="/projects"

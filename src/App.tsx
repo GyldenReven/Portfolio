@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import Header from "./components/header/header";
 import ContactPage from "./pages/contactpage";
 import Page404 from "./pages/page404";
+import AboutPage from "./pages/aboutpage";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<HomePage />} />
+                        <Route path="/about" element={<AboutPage />} />
                         <Route path="/projects/*" element={<ProjectsPage />} />
                         <Route
                             path="/Contact"
