@@ -3,9 +3,9 @@ import { useTranslation } from "react-i18next";
 const TimelineElement: React.FC<{
     category: string;
     type: string;
-    latest?: boolean;
+    onGoing?: boolean;
     icon?: string;
-}> = ({ category, type, latest, icon }) => {
+}> = ({ category, type, onGoing, icon }) => {
     const { t } = useTranslation();
 
     return (
@@ -26,9 +26,9 @@ const TimelineElement: React.FC<{
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-white pt-2">
                 {t("homepage." + category + "." + type + "_title")}
-                {latest && (
+                {onGoing && (
                     <span className="bg-ctp-teal-950 text-ctp-teal-50 text-sm font-bold me-2 px-2.5 py-0.5 rounded-lg ms-3">
-                        {t("homepage.latest_label")}
+                        {t("homepage.onGoing_label")}
                     </span>
                 )}
             </h3>

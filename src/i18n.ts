@@ -27,7 +27,7 @@ const resources = {
                 "ndc1_desc": "Participation au marathon de programmation organisé par la Nuit du Code. Il s'agit d'un projet de développement en équipe d'un jeu en 6 heures qui m'a permis de vite apprendre à collaborer en groupe dans un temps limité."
             },
             "education_title": "Études",
-            "latest_label": "Dernier",
+            "onGoing_label": "En cours",
             "education": {
                 "university_title": "IUT De Lens - BUT Informatique",
                 "university_date": "Septembre 2024 - Juin 2026",

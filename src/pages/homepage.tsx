@@ -81,7 +81,6 @@ function HomePage() {
                     <TimelineElement
                         category="experience"
                         type="ndc2"
-                        latest
                         icon={logoNDC}
                     />
                     <TimelineElement
@@ -97,7 +96,7 @@ function HomePage() {
                     <TimelineElement
                         category="education"
                         type="university"
-                        latest
+                        onGoing
                         icon={logoIUT}
                     />
                     <TimelineElement
