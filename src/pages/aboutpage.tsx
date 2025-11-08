@@ -51,7 +51,7 @@ function AboutPage() {
             >
                 <h2>{t("homepage.skills_title")}</h2>
                 <h3>{t("homepage.skills.programming_languages")}</h3>
-                <ul className="border-b-2 border-ctp-overlay0 pb-2 mb-4">
+                <ul className="border-b-2 border-dashed border-ctp-overlay0 pb-2 mb-4">
                     {languagesSkills.map((skill) => (
                         <li
                             key={skill.name}
@@ -67,7 +67,7 @@ function AboutPage() {
                     ))}
                 </ul>
                 <h3>{t("homepage.skills.tools")}</h3>
-                <ul className="border-b-2 border-ctp-overlay0 pb-2 mb-4">
+                <ul className="border-b-2 border-dashed border-ctp-overlay0 pb-2 mb-4">
                     {toolsSkills.map((skill) => (
                         <li
                             key={skill.name}
