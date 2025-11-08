@@ -15,8 +15,9 @@ const resources = {
         "name": "Simon Cohet",
         "homepage": {
             "welcome": "Salut, je suis Simon, étudiant en 2e année de BUT Informatique parcours réalisation d'applications. Passionné par le développement dès mon premier contact avec la programmation.",
-            "projects_link": "Mes projets",
-            "skills_link": "Mes compétences",
+            "about_me_link": "En savoir plus sur moi",
+            "projects_link": "Voir mes projets",
+            "contact_link": "Me contacter",
             "experience_title": "Éxpériences",
             "experience": {
                 "ndc2_title": "Marathon de programmation - Nuit du Code",
