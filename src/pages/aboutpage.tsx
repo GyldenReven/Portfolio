@@ -13,7 +13,7 @@ function AboutPage() {
     const { t } = useTranslation();
 
     return (
-        <div className="max-w-[1600px] grid gap-3 col-span-2 md:grid-cols-[1fr_300px] grid-cols-[1fr] m-auto">
+        <div className="max-w-[1130px] grid gap-3 col-span-2 md:grid-cols-[1fr_300px] grid-cols-[1fr] m-auto">
             <section>
                 <h2>{t("homepage.experience_title")}</h2>
                 <Timeline>
