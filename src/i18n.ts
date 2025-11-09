@@ -18,8 +18,8 @@ const resources = {
             "about_me_link": "En savoir plus sur moi",
             "projects_link": "Voir mes projets",
             "contact_link": "Me contacter",
-            "experience_title": "Éxpériences",
-            "experience": {
+            "other_experiences_title": "Éxpériences diverses",
+            "other_experiences": {
                 "ndc2_title": "Marathon de programmation - Nuit du Code",
                 "ndc2_date": "Juin 2024",
                 "ndc2_desc": "Participation pour la deuxième année consécutive au marathon de programmation organisé par la Nuit du Code. Il s'agit d'un projet de développement en équipe d'un jeu en 6 heures. Permettant de renforcer les compétences acquises l'année précédente en travail",
@@ -27,7 +27,7 @@ const resources = {
                 "ndc1_date": "Juin 2023",
                 "ndc1_desc": "Participation au marathon de programmation organisé par la Nuit du Code. Il s'agit d'un projet de développement en équipe d'un jeu en 6 heures qui m'a permis de vite apprendre à collaborer en groupe dans un temps limité."
             },
-            "education_title": "Études",
+            "education_title": "Études et Diplômes",
             "onGoing_label": "En cours",
             "education": {
                 "university_title": "IUT De Lens - BUT Informatique",

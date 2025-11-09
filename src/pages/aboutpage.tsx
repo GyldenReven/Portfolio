@@ -15,15 +15,15 @@ function AboutPage() {
     return (
         <div className="max-w-[1130px] grid gap-3 col-span-2 md:grid-cols-[1fr_300px] grid-cols-[1fr] m-auto">
             <section>
-                <h2>{t("homepage.experience_title")}</h2>
+                <h2>{t("homepage.other_experiences_title")}</h2>
                 <Timeline>
                     <TimelineElement
-                        category="experience"
+                        category="other_experiences"
                         type="ndc2"
                         icon={logoNDC}
                     />
                     <TimelineElement
-                        category="experience"
+                        category="other_experiences"
                         type="ndc1"
                         icon={logoNDC}
                     />
@@ -47,7 +47,7 @@ function AboutPage() {
             </section>
             <section
                 id="skills"
-                className="md:col-2 md:row-start-1 md:row-end-4"
+                className="md:col-2 md:row-start-1 md:row-end-3"
             >
                 <h2>{t("homepage.skills_title")}</h2>
                 <h3>{t("homepage.skills.programming_languages")}</h3>
