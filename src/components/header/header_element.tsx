@@ -6,7 +6,7 @@ const HeaderElement: React.FC<{ name: string; ref: string }> = ({
 }) => {
     return (
         <a
-            className="w-max flex items-center bg-ctp-surface1 p-2 group/header-element rounded-lg hover:scale-110 transition-all duration-200 ease-in-out border-2 border-ctp-overlay0 hover:border-copper-400"
+            className="w-full md:w-max flex items-center bg-ctp-surface1 p-2 group/header-element rounded-lg hover:scale-110 transition-all duration-200 ease-in-out border-2 border-ctp-overlay0 hover:border-copper-400"
             href={ref}
         >
             <svg

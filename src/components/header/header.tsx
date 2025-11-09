@@ -58,7 +58,7 @@ const Header: React.FC = () => {
                     </button>
                 </div>
                 <menu
-                    className={`flex md:flex gap-4 flex-col md:flex-row w-11/12 md:w-auto mt-4 md:mt-0
+                    className={`flex md:flex gap-2 flex-col md:flex-row w-11/12 md:w-auto mt-4 md:mt-0
                     ${isToggleOpen ? "flex" : "hidden"}`}
                 >
                     <HeaderElement name={t("header.home")} ref="/" />

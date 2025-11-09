@@ -8,7 +8,7 @@ function HomePage() {
         <section className="justify-center items-center flex flex-col mt-20">
                 <h1>{t("name")}</h1>
                 <p>{t("homepage.welcome")}</p>
-                <div className="grid grid-cols-3 gap-4 flex-wrap mt-4 max-w-[700px]">
+                <div className="w-full sm:w-1/2 md:w-full grid md:grid-cols-3 gap-4 flex-wrap mt-4 max-w-[700px]">
                     <HomeButton
                         name={t("homepage.about_me_link")}
                         ref="/about"
