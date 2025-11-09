@@ -26,11 +26,17 @@ function HomePage() {
             </section>
             <section>
                 <h2>{t("homepage.goals_title")}</h2>
+                <p className="mb-4">
+                    {t("homepage.goals_description_part1")}
+                </p>
+                <p>
+                    {t("homepage.goals_description_part2")}
+                </p>
             </section>
             <section>
                 <h2>{t("homepage.hobbies_title")}</h2>
                 <div className="grid gap-4 md:grid-cols-3">
-                    <div className="bg-ctp-surface1 p-4 rounded-lg">
+                    <div className="bg-ctp-surface1 border-2 border-ctp-overlay0 p-4 rounded-lg">
                         <svg
                             className="w-8 h-8 inline-block mr-2 mb-1"
                             viewBox="0 0 24 24"
@@ -62,7 +68,7 @@ function HomePage() {
                         </h3>
                         <p>{t("homepage.hobbies.video_games_desc")}</p>
                     </div>
-                    <div className="bg-ctp-surface1 p-4 rounded-lg">
+                    <div className="bg-ctp-surface1 p-4 rounded-lg border-2 border-ctp-overlay0">
                         <svg
                             className="w-8 h-8 inline-block mr-2 mb-2"
                             fill="#ffffff"
@@ -85,7 +91,7 @@ function HomePage() {
                         </h3>
                         <p>{t("homepage.hobbies.guitar_desc")}</p>
                     </div>
-                    <div className="bg-ctp-surface1 p-4 rounded-lg">
+                    <div className="bg-ctp-surface1 p-4 rounded-lg border-2 border-ctp-overlay0">
                         <svg
                             className="w-8 h-8 inline-block mr-2 mb-1"
                             viewBox="0 0 512 512"

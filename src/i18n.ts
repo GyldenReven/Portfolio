@@ -19,6 +19,8 @@ const resources = {
             "projects_link": "Voir mes projets",
             "contact_link": "Me contacter",
             "goals_title": "Mes objectifs",
+            "goals_description_part1": "Mon objectif actuel est de trouver un stage ou une alternance dans le développement afin de renforcer mes compétences et d'acquérir une expérience professionnelle domaine.",
+            "goals_description_part2": "Mes motivations pour programmer sont d'apprendre continuellement de nouvelles technologies ou méthodes et de fournir un travail de qualité, bien fini et abouti.",
             "hobbies_title": "Mes loisirs",
             "hobbies": {
                 "video_games": "Jeux vidéo",
