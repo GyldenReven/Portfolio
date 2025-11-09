@@ -18,6 +18,16 @@ const resources = {
             "about_me_link": "En savoir plus sur moi",
             "projects_link": "Voir mes projets",
             "contact_link": "Me contacter",
+            "goals_title": "Mes objectifs",
+            "hobbies_title": "Mes loisirs",
+            "hobbies": {
+                "video_games": "Jeux vidéo",
+                "video_games_desc": "J'aime jouer à une gamme de jeux vidéo très large. Cela me permet de me détendre tout en stimulant ma créativité.",
+                "guitar": "Guitare",
+                "guitar_desc": "J'ai pris des cours de guitare ce qui m'aide à développer ma patience et ma discipline tout en appréciant la musique.",
+                "board_games": "Jeux de société",
+                "board_games_desc": "Je joue aux régulièrement jeux de société avec ma famille, ce qui développe mon esprit stratégique et adaptabilité."
+            }
           },
         "about": {
           "other_experiences_title": "Expériences diverses",
