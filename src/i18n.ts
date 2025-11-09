@@ -51,6 +51,7 @@ const resources = {
                     "spanish": "Espagnol - Niveau A2",
             },
         },
+      },
         "header": {
             "title": "Mon Portfolio",
             "home": "Accueil",
@@ -84,7 +85,6 @@ const resources = {
             "success_message": "Message envoyé  !",
             "error_message": "Une erreur est survenue. Veuillez réessayer.",
         }
-      }
     }
   }
 };
