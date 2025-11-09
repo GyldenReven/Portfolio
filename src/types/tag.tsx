@@ -17,4 +17,7 @@ export const defaultTags: Tag[] = [
     { name: "Flutter", color: "#0C5FA0" },
     { name: "Python", color: "#306998" },
     { name: "SQLite", color: "#8DD1F2" },
+    { name: "Mobile", color: "#A9E099" },
+    { name: "Java", color: "#E05858" },
+    { name: "Application", color: "#FFB347"}
 ];

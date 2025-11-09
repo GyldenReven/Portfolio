@@ -18,8 +18,22 @@ const resources = {
             "about_me_link": "En savoir plus sur moi",
             "projects_link": "Voir mes projets",
             "contact_link": "Me contacter",
-            "experience_title": "Éxpériences",
-            "experience": {
+            "goals_title": "Mes objectifs",
+            "goals_description_part1": "Mon objectif actuel est de trouver un stage ou une alternance dans le développement afin de renforcer mes compétences et d'acquérir une expérience professionnelle domaine.",
+            "goals_description_part2": "Mes motivations pour programmer sont d'apprendre continuellement de nouvelles technologies ou méthodes et de fournir un travail de qualité, bien fini et abouti.",
+            "hobbies_title": "Mes loisirs",
+            "hobbies": {
+                "video_games": "Jeux vidéo",
+                "video_games_desc": "J'aime jouer à une gamme de jeux vidéo très large. Cela me permet de me détendre tout en stimulant ma créativité.",
+                "guitar": "Guitare",
+                "guitar_desc": "J'ai pris des cours de guitare ce qui m'aide à développer ma patience et ma discipline tout en appréciant la musique.",
+                "board_games": "Jeux de société",
+                "board_games_desc": "Je joue aux régulièrement jeux de société avec ma famille, ce qui développe mon esprit stratégique et adaptabilité."
+            }
+          },
+        "about": {
+          "other_experiences_title": "Expériences diverses",
+            "other_experiences": {
                 "ndc2_title": "Marathon de programmation - Nuit du Code",
                 "ndc2_date": "Juin 2024",
                 "ndc2_desc": "Participation pour la deuxième année consécutive au marathon de programmation organisé par la Nuit du Code. Il s'agit d'un projet de développement en équipe d'un jeu en 6 heures. Permettant de renforcer les compétences acquises l'année précédente en travail",
@@ -27,7 +41,7 @@ const resources = {
                 "ndc1_date": "Juin 2023",
                 "ndc1_desc": "Participation au marathon de programmation organisé par la Nuit du Code. Il s'agit d'un projet de développement en équipe d'un jeu en 6 heures qui m'a permis de vite apprendre à collaborer en groupe dans un temps limité."
             },
-            "education_title": "Études",
+            "education_title": "Études et Diplômes",
             "onGoing_label": "En cours",
             "education": {
                 "university_title": "IUT De Lens - BUT Informatique",
@@ -48,8 +62,8 @@ const resources = {
                     "english": "Anglais - Niveau B2",
                     "spanish": "Espagnol - Niveau A2",
             },
-          },
         },
+      },
         "header": {
             "title": "Mon Portfolio",
             "home": "Accueil",
@@ -66,8 +80,10 @@ const resources = {
             "title": "Projets",
             "visit_live": "Voir en ligne",
             "utilitea_description": "Un site web de comportant des outils tels qu'un traducteur morse, un encodeur en code César et un convertisseur de bases numériques",
-            "ametask_description": "Une application mobile de gestion de tâches avec des fonctionnalités supplementaires telles que les taches à compteurs. Réalisée afin d'essayer un nouveau framework et langage.",
-        },
+            "ametask_description": "Une application mobile de gestion de tâches avec des fonctionnalités supplementaires telles que les taches à compteurs.",
+            "lensymphony_description": "Une application de gestion synthétiseur virtuel, permettant de créer et sauvegarder des musiques via une interface en lignes de commandes.",
+            "portfolio_description": "Mon portfolio personnel pour présenter mes projets, compétences et expériences.",
+          },
         "contact": {
             "title": "Contactez-moi",
             "name_label": "Nom",

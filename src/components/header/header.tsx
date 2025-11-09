@@ -12,6 +12,8 @@ const Header: React.FC = () => {
         setIsToggleOpen(!isToggleOpen);
     };
 
+    const buttonState = isToggleOpen ? "rotate-90" : "";
+
     const [position, setPosition] = useState(window.pageYOffset);
     const [visible, setVisible] = useState(true);
 
@@ -42,7 +44,7 @@ const Header: React.FC = () => {
                         onClick={handleToggleOpen}
                     >
                         <svg
-                            className="inline-block transition-transform duration-300 ease-in-out group-hover/toggle:rotate-90 group-hover/toggle:text-copper-400"
+                            className={`inline-block transition-transform duration-300 ease-in-out group-hover/toggle:text-copper-400 ${buttonState}`}
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 20 20"
@@ -58,7 +60,7 @@ const Header: React.FC = () => {
                     </button>
                 </div>
                 <menu
-                    className={`flex md:flex gap-4 flex-col md:flex-row w-11/12 md:w-auto mt-4 md:mt-0
+                    className={`flex md:flex gap-2 flex-col md:flex-row w-11/12 md:w-auto mt-4 md:mt-0
                     ${isToggleOpen ? "flex" : "hidden"}`}
                 >
                     <HeaderElement name={t("header.home")} ref="/" />

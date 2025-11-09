@@ -1,9 +1,6 @@
 import type React from "react";
 
-const HomeButton: React.FC<{ name: string; ref: string }> = ({
-    name,
-    ref,
-}) => {
+const HomeButton: React.FC<{ name: string; ref: string }> = ({ name, ref }) => {
     return (
         <a
             className="w-full text-2x flex items-center bg-ctp-surface1 p-2 group/header-element rounded-xl hover:scale-110 transition-all duration-200 ease-in-out border-2 border-ctp-overlay0 hover:border-copper-400"
@@ -57,7 +54,7 @@ const HomeButton: React.FC<{ name: string; ref: string }> = ({
                     />
                 </g>
             </svg>
-            {name}
+            <span className="mx-auto md:mx-0">{name}</span>
         </a>
     );
 };

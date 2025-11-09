@@ -14,10 +14,10 @@ function ProjectsPage() {
                 <Route
                     path="/"
                     element={
-                        <section>
+                        <section className="projects-section mx-auto my-8 px-4 flex flex-col gap-6">
                             <h1>{t("projects.title")}</h1>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                                 {projects.map((project) => (
                                     <ProjectCard project={project} />
                                 ))}
