@@ -1,4 +1,5 @@
-import Markdown from "react-markdown";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from 'remark-gfm'
 import axios from "axios";
 import { useEffect, useState } from "react";
 
@@ -16,7 +17,7 @@ function ProjectReadMe({ projectName }: { projectName: string }) {
 
     return (
         <div className="readme-container">
-            <Markdown>{rawMd}</Markdown>     
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{rawMd}</ReactMarkdown>     
         </div>
     );
 }

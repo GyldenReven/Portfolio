@@ -80,8 +80,10 @@ const resources = {
             "title": "Projets",
             "visit_live": "Voir en ligne",
             "utilitea_description": "Un site web de comportant des outils tels qu'un traducteur morse, un encodeur en code César et un convertisseur de bases numériques",
-            "ametask_description": "Une application mobile de gestion de tâches avec des fonctionnalités supplementaires telles que les taches à compteurs. Réalisée afin d'essayer un nouveau framework et langage.",
-        },
+            "ametask_description": "Une application mobile de gestion de tâches avec des fonctionnalités supplementaires telles que les taches à compteurs.",
+            "lensymphony_description": "Une application de gestion synthétiseur virtuel, permettant de créer et sauvegarder des musiques via une interface en lignes de commandes.",
+            "portfolio_description": "Mon portfolio personnel pour présenter mes projets, compétences et expériences.",
+          },
         "contact": {
             "title": "Contactez-moi",
             "name_label": "Nom",

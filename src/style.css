@@ -49,6 +49,10 @@ section {
     background-color: var(--color-ctp-surface0);
 }
 
+section.projects-section {
+    max-width: 1200px;
+}
+
 h1 {
     font-weight: 700;
     font-size: 2.5rem;
@@ -136,10 +140,26 @@ input:focus, textarea:focus {
 }
 
 .readme-container code {
+    display: inline-block;
     font-size: 0.9rem;
     background-color: var(--color-ctp-surface1);
-    padding: 4px;
+    padding: 2px;
+    padding-bottom: 0;
     border-radius: 5px;
     font-family: "Courier New", Courier, monospace;
     border: 1px solid var(--color-ctp-overlay0);
+    max-height: 500px;
+    overflow: scroll;
+    max-width: 100%;
+}
+
+.readme-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+.readme-container th,
+.readme-container td {
+    border: 1px solid var(--color-ctp-overlay0);
+    padding: 0.2rem;
 }
