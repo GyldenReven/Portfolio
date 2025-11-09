@@ -18,7 +18,9 @@ const resources = {
             "about_me_link": "En savoir plus sur moi",
             "projects_link": "Voir mes projets",
             "contact_link": "Me contacter",
-            "other_experiences_title": "Éxpériences diverses",
+          },
+        "about": {
+          "other_experiences_title": "Expériences diverses",
             "other_experiences": {
                 "ndc2_title": "Marathon de programmation - Nuit du Code",
                 "ndc2_date": "Juin 2024",
@@ -48,7 +50,6 @@ const resources = {
                     "english": "Anglais - Niveau B2",
                     "spanish": "Espagnol - Niveau A2",
             },
-          },
         },
         "header": {
             "title": "Mon Portfolio",
@@ -83,6 +84,7 @@ const resources = {
             "success_message": "Message envoyé  !",
             "error_message": "Une erreur est survenue. Veuillez réessayer.",
         }
+      }
     }
   }
 };

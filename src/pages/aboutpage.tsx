@@ -15,7 +15,7 @@ function AboutPage() {
     return (
         <div className="max-w-[1130px] grid gap-3 col-span-2 md:grid-cols-[1fr_300px] grid-cols-[1fr] m-auto">
             <section>
-                <h2>{t("homepage.other_experiences_title")}</h2>
+                <h2>{t("about.other_experiences_title")}</h2>
                 <Timeline>
                     <TimelineElement
                         category="other_experiences"
@@ -30,7 +30,7 @@ function AboutPage() {
                 </Timeline>
             </section>
             <section>
-                <h2>{t("homepage.education_title")}</h2>
+                <h2>{t("about.education_title")}</h2>
                 <Timeline>
                     <TimelineElement
                         category="education"
@@ -49,8 +49,8 @@ function AboutPage() {
                 id="skills"
                 className="md:col-2 md:row-start-1 md:row-end-3"
             >
-                <h2>{t("homepage.skills_title")}</h2>
-                <h3>{t("homepage.skills.programming_languages")}</h3>
+                <h2>{t("about.skills_title")}</h2>
+                <h3>{t("about.skills.programming_languages")}</h3>
                 <ul className="border-b-2 border-dashed border-ctp-overlay0 pb-2 mb-4">
                     {languagesSkills.map((skill) => (
                         <li
@@ -66,7 +66,7 @@ function AboutPage() {
                         </li>
                     ))}
                 </ul>
-                <h3>{t("homepage.skills.tools")}</h3>
+                <h3>{t("about.skills.tools")}</h3>
                 <ul className="border-b-2 border-dashed border-ctp-overlay0 pb-2 mb-4">
                     {toolsSkills.map((skill) => (
                         <li
@@ -83,19 +83,19 @@ function AboutPage() {
                     ))}
                 </ul>
                 <ul>
-                    <h3>{t("homepage.skills.languages_title")}</h3>
+                    <h3>{t("about.skills.languages_title")}</h3>
                     <ul>
                         <li className="mb-3">
                             <img src={frenchFlag} alt="Drapeau français" className="h-6 inline-block mr-2 rounded-sm" />
-                            {t("homepage.skills.languages.french")}
+                            {t("about.skills.languages.french")}
                         </li>
                         <li className="mb-3">
                             <img src={englishFlag} alt="Drapeau anglais" className="h-6 inline-block mr-2 rounded-sm" />
-                            {t("homepage.skills.languages.english")}
+                            {t("about.skills.languages.english")}
                         </li>
                         <li className="mb-3">
                             <img src={spanishFlag} alt="Drapeau espagnol" className="h-6 inline-block mr-2 rounded-sm" />
-                            {t("homepage.skills.languages.spanish")}
+                            {t("about.skills.languages.spanish")}
                         </li>
                     </ul>
                 </ul>

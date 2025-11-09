@@ -15,7 +15,7 @@ const TimelineElement: React.FC<{
                     <img
                         src={icon}
                         alt={`${t(
-                            "homepage." + category + "." + type + "_title"
+                            "about." + category + "." + type + "_title"
                         )} icon`}
                         className="w-7 h-7"
                     />
@@ -25,18 +25,18 @@ const TimelineElement: React.FC<{
                 )}
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-white pt-2">
-                {t("homepage." + category + "." + type + "_title")}
+                {t("about." + category + "." + type + "_title")}
                 {onGoing && (
                     <span className="bg-ctp-teal-950 text-ctp-teal-50 text-sm font-bold me-2 px-2.5 py-0.5 rounded-lg ms-3">
-                        {t("homepage.onGoing_label")}
+                        {t("about.onGoing_label")}
                     </span>
                 )}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-ctp-subtext0">
-                {t("homepage." + category + "." + type + "_date")}
+                {t("about." + category + "." + type + "_date")}
             </time>
             <p className="mb-4 text-base font-normal text-ctp-text">
-                {t("homepage." + category + "." + type + "_desc")}
+                {t("about." + category + "." + type + "_desc")}
             </p>
         </li>
     );
