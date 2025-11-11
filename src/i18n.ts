@@ -11,7 +11,7 @@ const resources = {
   },
   fr: {
     translation: {
-        "404": "404 - Page non trouvée",
+        "404": "Erreur 404 - Page non trouvée",
         "name": "Simon Cohet",
         "homepage": {
             "welcome": "Salut ! Je suis Simon, étudiant en 2e année de BUT Informatique parcours réalisation d'applications. Passionné par le développement dès mon premier contact avec la programmation.",
@@ -19,39 +19,31 @@ const resources = {
             "projects_link": "Voir mes projets",
             "contact_link": "Me contacter",
             "goals_title": "Mes objectifs",
-            "goals_description_part1": "Mon objectif actuel est de trouver un stage ou une alternance dans le développement afin de renforcer mes compétences et d'acquérir une expérience professionnelle domaine.",
-            "goals_description_part2": "Mes motivations pour programmer sont d'apprendre continuellement de nouvelles technologies ou méthodes et de fournir un travail de qualité, bien fini et abouti.",
+            "goals_description_part1": "Mon objectif actuel est de trouver un stage ou une alternance dans le développement afin de renforcer mes compétences et d'acquérir une expérience professionnelle importante.",
+            "goals_description_part2": "Mes motivations pour programmer sont d'apprendre continuellement, de nouvelles technologies ou méthodes ainsi que de fournir un travail de qualité et abouti.",
             "hobbies_title": "Mes loisirs",
-            "hobbies": {
-                "video_games": "Jeux vidéo",
-                "video_games_desc": "J'aime jouer à une gamme de jeux vidéo très large. Cela me permet de me détendre tout en stimulant ma créativité.",
-                "guitar": "Guitare",
-                "guitar_desc": "J'ai pris des cours de guitare ce qui m'aide à développer ma patience et ma discipline tout en appréciant la musique.",
-                "board_games": "Jeux de société",
-                "board_games_desc": "Je joue aux régulièrement jeux de société avec ma famille, ce qui développe mon esprit stratégique et adaptabilité."
-            }
           },
         "about": {
-          "cv_title": "Cliquer ici pour télécharger mon CV",
+          "cv_title": "Cliquez ici pour télécharger mon CV",
           "cv_link": "Télécharger mon CV",
           "other_experiences_title": "Expériences diverses",
             "other_experiences": {
                 "ndc2_title": "Marathon de programmation - Nuit du Code",
                 "ndc2_date": "Juin 2024",
-                "ndc2_desc": "Participation pour la deuxième année consécutive au marathon de programmation organisé par la Nuit du Code. Il s'agit d'un projet de développement en équipe d'un jeu en 6 heures. Permettant de renforcer les compétences acquises l'année précédente en travail",
+                "ndc2_desc": "Participation pour la deuxième année consécutive au marathon de programmation organisé par la Nuit du Code. Permettant de renforcer les compétences acquises l'année précédente.",
                 "ndc1_title": "Marathon de programmation - Nuit du Code",
                 "ndc1_date": "Juin 2023",
-                "ndc1_desc": "Participation au marathon de programmation organisé par la Nuit du Code. Il s'agit d'un projet de développement en équipe d'un jeu en 6 heures qui m'a permis de vite apprendre à collaborer en groupe dans un temps limité."
+                "ndc1_desc": "Participation au marathon de programmation organisé par la Nuit du Code. Il s'agit d'un projet de développement d'un jeu en équipe et en 6 heures. Ce marathon m'a permis de vite apprendre à collaborer en groupe dans un temps limité."
             },
             "education_title": "Études et Diplômes",
             "onGoing_label": "En cours",
             "education": {
                 "university_title": "IUT De Lens - BUT Informatique",
                 "university_date": "Septembre 2024 - Juin 2026",
-                "university_desc": "Actuellement en deuxième année du BUT Informatique, avec parcours en réalisation d'applications",
+                "university_desc": "Actuellement en deuxième année du BUT Informatique, avec parcours en réalisation d'applications.",
                 "secondaryschool_title": "Lycée Baudimont - Baccalauréat Général",
                 "secondaryschool_date": "Septembre 2021 - Juillet 2024",
-                "secondaryschool_desc": "Diplômé avec mention très bien, avec les spécialités Mathématiques et Numérique et Sciences Informatiques",
+                "secondaryschool_desc": "Diplômé avec mention très bien, avec les spécialités Numérique et Sciences Informatiques et Mathématiques.",
             },
             "skills_title": "Compétences",
             "skills": {
@@ -63,8 +55,16 @@ const resources = {
                     "french": "Français - Langue natale",
                     "english": "Anglais - Niveau B2",
                     "spanish": "Espagnol - Niveau A2",
-            },
+            },    
         },
+        "hobbies": {
+                "video_games": "Jeux vidéo",
+                "video_games_desc": "J'aime jouer à une gamme de jeux vidéo très large. Cela me permet de me détendre tout en stimulant ma créativité.",
+                "guitar": "Guitare",
+                "guitar_desc": "J'ai pris des cours de guitare ce qui m'aide à développer ma patience et ma discipline tout en appréciant la musique.",
+                "board_games": "Jeux de société",
+                "board_games_desc": "Je joue aux régulièrement jeux de société avec ma famille, ce qui développe mon esprit stratégique et mon adaptabilité."
+            }
       },
         "header": {
             "title": "Mon Portfolio",
@@ -83,7 +83,7 @@ const resources = {
             "visit_live": "Voir en ligne",
             "utilitea_description": "Un site web de comportant des outils tels qu'un traducteur morse, un encodeur en code César et un convertisseur de bases numériques",
             "ametask_description": "Une application mobile de gestion de tâches avec des fonctionnalités supplementaires telles que les taches à compteurs.",
-            "lensymphony_description": "Une application de gestion synthétiseur virtuel, permettant de créer et sauvegarder des musiques via une interface en lignes de commandes.",
+            "lensymphony_description": "Une application de synthetisation musicale, permettant de synthetiser et sauvegarder des musiques via une interface en lignes de commandes.",
             "portfolio_description": "Mon portfolio personnel pour présenter mes projets, compétences et expériences.",
           },
         "contact": {
