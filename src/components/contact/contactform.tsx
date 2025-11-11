@@ -111,7 +111,7 @@ export const ContactForm = () => {
             <div className="mb-4 flex gap-6 items-center">
                 <button
                     type="submit"
-                    className="bg-teal-600 text-ctp-teal-50 px-4 py-2 rounded-lg transition-colors hover:bg-teal-700 border-2 border-teal-700 hover:border-teal-800 border-b-6 active:border-b-2 active:mt-1 font-medium box-border"
+                    className="bg-teal-600 text-ctp-teal-50 px-4 py-2 rounded-lg transition-all hover:bg-teal-700 border-2 border-teal-700 hover:border-teal-800 border-b-6 active:border-b-2 active:mt-1 font-medium box-border"
                 >
                     {t("contact.submit_button")}
                 </button>
