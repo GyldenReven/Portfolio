@@ -14,7 +14,7 @@ const resources = {
         "404": "404 - Page non trouvée",
         "name": "Simon Cohet",
         "homepage": {
-            "welcome": "Salut ! je suis Simon, étudiant en 2e année de BUT Informatique parcours réalisation d'applications. Passionné par le développement dès mon premier contact avec la programmation.",
+            "welcome": "Salut ! Je suis Simon, étudiant en 2e année de BUT Informatique parcours réalisation d'applications. Passionné par le développement dès mon premier contact avec la programmation.",
             "about_me_link": "En savoir plus sur moi",
             "projects_link": "Voir mes projets",
             "contact_link": "Me contacter",
