@@ -8,12 +8,19 @@ import logoBaudimont from "../assets/icons/studies/baudimont.svg";
 import frenchFlag from "../assets/flags/france.png";
 import englishFlag from "../assets/flags/uk.png";
 import spanishFlag from "../assets/flags/spain.svg";
+import cvPdf from "../assets/cv.pdf";
 
 function AboutPage() {
     const { t } = useTranslation();
 
     return (
         <div className="max-w-[1130px] grid gap-3 col-span-2 md:grid-cols-[1fr_300px] grid-cols-[1fr] m-auto">
+            <section>
+                <h2>{t("about.cv_title")}</h2>
+                <a href={cvPdf} download rel="noopener noreferrer">
+                    {t("about.cv_link")}
+                </a>
+            </section>
             <section>
                 <h2>{t("about.other_experiences_title")}</h2>
                 <Timeline>
@@ -47,7 +54,7 @@ function AboutPage() {
             </section>
             <section
                 id="skills"
-                className="md:col-2 md:row-start-1 md:row-end-3"
+                className="md:col-2 md:row-start-1 md:row-end-4"
             >
                 <h2>{t("about.skills_title")}</h2>
                 <h3>{t("about.skills.programming_languages")}</h3>
