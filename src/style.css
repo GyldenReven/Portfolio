@@ -87,17 +87,26 @@ header h1 {
 input, textarea {
     padding: 10px;
     border: 2px solid var(--color-ctp-overlay0);
-    border-radius: 10px;
+    border-radius: 1rem;
     background-color: var(--color-ctp-surface0);
     color: var(--color-ctp-text);
     font-size: 1rem;
     width: 100%;
     box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
 }
 
 input:focus, textarea:focus {
     outline: none;
     border-color: var(--color-copper-400);
+}
+
+input:user-invalid, textarea:user-invalid {
+    border-color: var(--color-ctp-red);
+}
+
+input:user-invalid:focus, textarea:user-invalid:focus {
+    border-color: var(--color-ctp-red-800);
 }
 
 .copper-plate {
