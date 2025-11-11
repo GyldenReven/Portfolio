@@ -1,14 +1,22 @@
 import { useTranslation } from "react-i18next";
 import HomeButton from "../components/homepage/home_button";
+import profilePicture from "../assets/profile_picture.jpg";
 
 function HomePage() {
     const { t } = useTranslation();
 
     return (
         <>
-            <section className="justify-center items-center flex flex-col mt-20">
-                <h1>{t("name")}</h1>
-                <p>{t("homepage.welcome")}</p>
+            <section className="justify-around items-center flex flex-row flex-wrap mt-20">
+                <div className="md:w-1/2">
+                    <h1>{t("name")}</h1>
+                    <p>{t("homepage.welcome")}</p>
+                </div>
+                <img
+                    src={profilePicture}
+                    alt="Profile"
+                    className="w-40 rounded-2xl border-2 border-ctp-overlay0 shadow-xl mt-4"
+                />
                 <div className="w-full sm:w-1/2 md:w-full grid md:grid-cols-3 gap-4 flex-wrap mt-4 max-w-[700px]">
                     <HomeButton
                         name={t("homepage.about_me_link")}
