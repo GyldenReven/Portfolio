@@ -181,9 +181,9 @@ function AboutPage() {
                             </g>
                         </svg>
                         <h3 className="inline-block">
-                            {t("homepage.hobbies.video_games")}
+                            {t("about.hobbies.video_games")}
                         </h3>
-                        <p>{t("homepage.hobbies.video_games_desc")}</p>
+                        <p>{t("about.hobbies.video_games_desc")}</p>
                     </div>
                     <div className="bg-ctp-surface1 p-4 rounded-lg border-2 border-ctp-overlay0">
                         <svg
@@ -204,9 +204,9 @@ function AboutPage() {
                             </g>
                         </svg>
                         <h3 className="inline-block">
-                            {t("homepage.hobbies.guitar")}
+                            {t("about.hobbies.guitar")}
                         </h3>
-                        <p>{t("homepage.hobbies.guitar_desc")}</p>
+                        <p>{t("about.hobbies.guitar_desc")}</p>
                     </div>
                     <div className="bg-ctp-surface1 p-4 rounded-lg border-2 border-ctp-overlay0">
                         <svg
@@ -293,8 +293,8 @@ function AboutPage() {
                                 ></ellipse>
                             </g>
                         </svg>
-                        <h3 className="inline-block">{t("homepage.hobbies.board_games")}</h3>
-                        <p>{t("homepage.hobbies.board_games_desc")}</p>
+                        <h3 className="inline-block">{t("about.hobbies.board_games")}</h3>
+                        <p>{t("about.hobbies.board_games_desc")}</p>
                     </div>
                 </div>
             </section>

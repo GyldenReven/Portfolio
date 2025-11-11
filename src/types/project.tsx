@@ -5,6 +5,7 @@ import ametaskThumb from "../assets/projects/thumbnails/ametask_thumbnail.jpg";
 import ametaskIcon from "../assets/projects/icons/ametask_icon.png";
 import lensymphonyThumb from "../assets/projects/thumbnails/lensymphony_thumbnail.png";
 import lensymphonyIcon from "../assets/projects/icons/lensymphony_icon.png";
+import portfolioThumb from "../assets/projects/thumbnails/portfolio_thumbnail.png";
 import { defaultTags } from "../types/tag";
 
 export type Project = {
@@ -46,7 +47,7 @@ export const projects: Project[] = [
     {
         title: "Portfolio",
         description: "projects.portfolio_description",
-        thumbnail: "",
+        thumbnail: portfolioThumb,
         tags: [defaultTags[3], defaultTags[4], defaultTags[5], defaultTags[6], defaultTags[7],],
         githubUrl: "https://github.com/GyldenReven/Portfolio",
     },
