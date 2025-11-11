@@ -49,7 +49,6 @@ export const ContactForm = () => {
 
     return (
         <form
-            className="max-w-lg mx-auto mt-6"
             ref={contactForm}
             onSubmit={sendEmail}
         >
@@ -63,7 +62,7 @@ export const ContactForm = () => {
                     type="text"
                     id="name"
                     name="name"
-                    className="w-full p-2 border border-ctp-overlay0 rounded bg-ctp-surface0 text-ctp-text"
+                    className="w-full p-2 border border-ctp-overlay0 rounded bg-ctp-surface0 text-ctp-text outline-none"
                     placeholder={t("contact.name_placeholder")}
                 />
             </div>
@@ -112,7 +111,7 @@ export const ContactForm = () => {
             <div className="mb-4 flex gap-6 items-center">
                 <button
                     type="submit"
-                    className="bg-teal-600 text-ctp-teal-50 px-4 py-2 rounded-lg transition-colors hover:bg-teal-700 border-2 border-teal-700 hover:border-teal-800"
+                    className="bg-teal-600 text-ctp-teal-50 px-4 py-2 rounded-lg transition-colors hover:bg-teal-700 border-2 border-teal-700 hover:border-teal-800 border-b-6 active:border-b-2 active:mt-1 font-medium box-border"
                 >
                     {t("contact.submit_button")}
                 </button>
