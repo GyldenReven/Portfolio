@@ -16,7 +16,7 @@ function AboutPage() {
     return (
         <div className="max-w-[1130px] grid gap-3 col-span-2 md:grid-cols-[1fr_300px] grid-cols-[1fr] m-auto">
             <section className="flex flex-col justify-center">
-                <h2 className="w-max mx-auto">{t("about.cv_title")}</h2>
+                <h2 className="mx-auto text-center">{t("about.cv_title")}</h2>
                 <a
                     href={cvPdf}
                     download
