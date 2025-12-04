@@ -49,6 +49,7 @@ const resources = {
             "skills": {
                 "programming_languages": "Programmation",
                 "frameworks": "Frameworks",
+                "databases": "Bases de données",
                 "tools": "Outils",
                 "languages_title": "Langues",
                 "languages": {

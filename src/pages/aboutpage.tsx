@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { languagesSkills, toolsSkills } from "../types/skills";
+import { databasesSkills, frameworksSkills, languagesSkills, toolsSkills } from "../types/skills";
 import Timeline from "../components/homepage/timeline";
 import TimelineElement from "../components/homepage/timeline_element";
 import logoIUT from "../assets/icons/studies/iut_lens.png";
@@ -91,6 +91,38 @@ function AboutPage() {
                 <h3>{t("about.skills.programming_languages")}</h3>
                 <ul className="border-b-2 border-dashed border-ctp-overlay0 pb-2 mb-4">
                     {languagesSkills.map((skill) => (
+                        <li
+                            key={skill.name}
+                            className="flex items-center gap-2 mb-3"
+                        >
+                            <img
+                                src={skill.icon}
+                                alt={skill.name + " icon"}
+                                className="w-8 h-8"
+                            />
+                            <span>{skill.name}</span>
+                        </li>
+                    ))}
+                </ul>
+                <h3>{t("about.skills.frameworks")}</h3>
+                <ul className="border-b-2 border-dashed border-ctp-overlay0 pb-2 mb-4">
+                    {frameworksSkills.map((skill) => (
+                        <li
+                            key={skill.name}
+                            className="flex items-center gap-2 mb-3"
+                        >
+                            <img
+                                src={skill.icon}
+                                alt={skill.name + " icon"}
+                                className="w-8 h-8"
+                            />
+                            <span>{skill.name}</span>
+                        </li>
+                    ))}
+                </ul>
+                <h3>{t("about.skills.databases")}</h3>
+                <ul className="border-b-2 border-dashed border-ctp-overlay0 pb-2 mb-4">
+                    {databasesSkills.map((skill) => (
                         <li
                             key={skill.name}
                             className="flex items-center gap-2 mb-3"
