@@ -159,13 +159,14 @@ input:user-invalid:focus, textarea:user-invalid:focus {
     border: 1px solid var(--color-ctp-overlay0);
     max-height: 500px;
     overflow: scroll;
-    max-width: 100%;
+    max-width: 100%;;
 }
 
 .readme-container table {
     width: 100%;
     border-collapse: collapse;
     margin: 1.5rem 0;
+    overflow: scroll;
 }
 .readme-container th,
 .readme-container td {
