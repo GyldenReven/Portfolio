@@ -10,7 +10,7 @@ const ProjectSheet: React.FC<{ project: Project }> = ({ project }) => {
     const { t } = useTranslation();
 
     return (
-        <div className="grid md:grid-cols-[2fr_1fr] gap-8">
+        <div className="grid lg:grid-cols-[2fr_1fr] gap-8">
             <section>
                 <div className="flex flex-row justify-between align-center">
                     <div className="flex flex-row gap-4 items-center mb-4">
@@ -50,7 +50,7 @@ const ProjectSheet: React.FC<{ project: Project }> = ({ project }) => {
             <img
                 src={project.thumbnail}
                 alt={`${project.title} screenshot`}
-                className="m-[10px_auto] md:max-h-3/5 rounded-lg object-cover object-top md:col-2 md:row-start-1 md:row-end-3 border-2 border-ctp-overlay0"
+                className="m-[10px_auto] lg:max-h-3/5 rounded-lg object-cover object-top lg:col-2 lg:row-start-1 lg:row-end-3 border-2 border-ctp-overlay0"
             />
         </div>
     );
