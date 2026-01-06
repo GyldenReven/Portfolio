@@ -8,6 +8,7 @@ import lensymphonyIcon from "../assets/projects/icons/lensymphony_icon.png";
 import portfolioThumb from "../assets/projects/thumbnails/portfolio_thumbnail.png";
 import marathonThumb from "../assets/projects/thumbnails/marathon_thumbnail.png"
 import marathonIcon from "../assets/projects/icons/marathon_icon.png"
+import spacedrillThumb from "../assets/projects/thumbnails/spacedrill_thumbnail.png"
 import { defaultTags } from "../types/tag";
 
 export type Project = {
@@ -35,6 +36,12 @@ export const projects: Project[] = [
         icon: lensymphonyIcon,
         tags: [defaultTags[14], defaultTags[15],],
         githubUrl: "https://github.com/GyldenReven/LenSymphony",
+    },
+    {
+        title: "SpaceDrill",
+        description: "projects.spacedrill_description",
+        thumbnail: spacedrillThumb,
+        tags: [defaultTags[17], defaultTags[18],],
     },
     {
         title: "Ametask",
