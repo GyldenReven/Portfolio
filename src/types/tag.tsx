@@ -19,5 +19,6 @@ export const defaultTags: Tag[] = [
     { name: "SQLite", color: "#8DD1F2" },
     { name: "Mobile", color: "#A9E099" },
     { name: "Java", color: "#E05858" },
-    { name: "Application", color: "#FFB347"}
+    { name: "Application", color: "#FFB347"},
+    { name: "Laravel", color: "#F6441C"}
 ];

@@ -6,6 +6,8 @@ import ametaskIcon from "../assets/projects/icons/ametask_icon.png";
 import lensymphonyThumb from "../assets/projects/thumbnails/lensymphony_thumbnail.png";
 import lensymphonyIcon from "../assets/projects/icons/lensymphony_icon.png";
 import portfolioThumb from "../assets/projects/thumbnails/portfolio_thumbnail.png";
+import marathonThumb from "../assets/projects/thumbnails/marathon_thumbnail.png"
+import marathonIcon from "../assets/projects/icons/marathon_icon.png"
 import { defaultTags } from "../types/tag";
 
 export type Project = {
@@ -19,6 +21,21 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+    {
+        title: "Marathon Web",
+        description: "projects.marathon_web_description",
+        thumbnail: marathonThumb,
+        icon: marathonIcon,
+        tags: [defaultTags[3], defaultTags[16],],
+    },
+    {
+        title: "LenSymphony",
+        description: "projects.lensymphony_description",
+        thumbnail: lensymphonyThumb,
+        icon: lensymphonyIcon,
+        tags: [defaultTags[14], defaultTags[15],],
+        githubUrl: "https://github.com/GyldenReven/LenSymphony",
+    },
     {
         title: "Ametask",
         description: "projects.ametask_description",
@@ -35,14 +52,6 @@ export const projects: Project[] = [
         tags: [defaultTags[0], defaultTags[1], defaultTags[2], defaultTags[3]],
         githubUrl: "https://github.com/GyldenReven/UtiliTea",
         liveUrl: "https://gyldenreven.github.io/UtiliTea/",
-    },
-    {
-        title: "LenSymphony",
-        description: "projects.lensymphony_description",
-        thumbnail: lensymphonyThumb,
-        icon: lensymphonyIcon,
-        tags: [defaultTags[14], defaultTags[15],],
-        githubUrl: "https://github.com/GyldenReven/LenSymphony",
     },
     {
         title: "Portfolio",
