@@ -86,7 +86,8 @@ const resources = {
             "ametask_description": "Une application mobile de gestion de tâches avec des fonctionnalités supplementaires telles que les taches à compteurs.",
             "lensymphony_description": "Une application de synthetisation musicale, permettant de synthetiser et sauvegarder des musiques via une interface en lignes de commandes.",
             "portfolio_description": "Mon portfolio personnel pour présenter mes projets, compétences et expériences.",
-            "marathon_web_description": "Un site web développé en 36 heures. Le but du projet était de développer un site web complet avec des fonctionnalités demandées et en collaborant avec une équipe aux compétences différentes."
+            "marathon_web_description": "Un site web développé en 36 heures. Le but du projet était de développer un site web complet avec des fonctionnalités demandées et en collaborant avec une équipe aux compétences différentes.",
+            "spacedrill_description": "Un jeu développé en lua en utilisant l'environnement PICO-8. Ce projet m'a permis de réaliser un jeu en découvrant et m'adaptant à un environnement limité"
           },
         "contact": {
             "title": "Contactez-moi",

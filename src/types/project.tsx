@@ -19,6 +19,7 @@ export type Project = {
     tags: Tag[];
     githubUrl?: string;
     liveUrl?: string;
+    type?: string;
 };
 
 export const projects: Project[] = [
@@ -28,6 +29,7 @@ export const projects: Project[] = [
         thumbnail: marathonThumb,
         icon: marathonIcon,
         tags: [defaultTags[3], defaultTags[16],],
+        type: "Projet universitaire",
     },
     {
         title: "LenSymphony",
@@ -36,12 +38,15 @@ export const projects: Project[] = [
         icon: lensymphonyIcon,
         tags: [defaultTags[14], defaultTags[15],],
         githubUrl: "https://github.com/GyldenReven/LenSymphony",
+        type: "Projet universitaire",
     },
     {
         title: "SpaceDrill",
         description: "projects.spacedrill_description",
         thumbnail: spacedrillThumb,
         tags: [defaultTags[17], defaultTags[18],],
+        type: "Projet perso",
+
     },
     {
         title: "Ametask",
@@ -50,6 +55,7 @@ export const projects: Project[] = [
         icon: ametaskIcon,
         tags: [defaultTags[9], defaultTags[10], defaultTags[12], defaultTags[13],],
         githubUrl: "https://github.com/GyldenReven/Ametask",
+        type: "Projet perso",
     },
     {
         title: "UtiliTea",
@@ -59,6 +65,7 @@ export const projects: Project[] = [
         tags: [defaultTags[0], defaultTags[1], defaultTags[2], defaultTags[3]],
         githubUrl: "https://github.com/GyldenReven/UtiliTea",
         liveUrl: "https://gyldenreven.github.io/UtiliTea/",
+        type: "Projet perso",
     },
     {
         title: "Portfolio",

@@ -38,8 +38,9 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
                 <p className="text-sm text-ctp-text font-medium mt-2 mb-4">
                     {t(project.description)}
                 </p>
-                <div className="mt-auto">
+                <div className="mt-auto flex flex-wrap">
                 <ProjectLinks project={project} />
+                <div className="ml-auto mt-auto text-ctp-subtext0 block">{project.type}</div>
                 </div>
             </div>
         </a>
